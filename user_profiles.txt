@@ -1,48 +1,50 @@
-John Doe, 30, M, Software Developer, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No
-Jane Smith, 25, F, Graphic Designer, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes
-Alice Johnson, 28, F, Marketing Specialist, Yes, Yes, No, No, Yes, Yes, No, Yes, No, No, Yes, Yes, Yes, No, No, Yes, Yes, No, No, Yes
-Bob Williams, 35, M, Project Manager, No, No, Yes, Yes, No, No, Yes, Yes, No, Yes, Yes, No, Yes, Yes, Yes, No, No, Yes, Yes, No
-Charlie Brown, 22, M, Student, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No, No, Yes, Yes, Yes, No, No, Yes, No, Yes, Yes
-Diana Ross, 32, F, HR Manager, No, Yes, Yes, No, Yes, No, No, Yes, Yes, No, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No
-Ethan Hunt, 29, M, Engineer, Yes, No, Yes, No, Yes, No, Yes, No, No, Yes, No, Yes, No, Yes, Yes, No, Yes, No, No, Yes
-Fiona Gallagher, 27, F, Teacher, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, Yes, No, Yes, No, Yes, No, No, Yes, Yes, No
-George Clooney, 40, M, Actor, Yes, Yes, Yes, No, No, Yes, No, Yes, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No, Yes, No
-Hannah Montana, 18, F, Student, No, No, No, Yes, Yes, No, Yes, No, Yes, Yes, Yes, No, No, Yes, No, Yes, No, Yes, No, Yes
-Ian Somerhalder, 34, M, Photographer, Yes, No, Yes, No, Yes, Yes, No, No, Yes, No, No, Yes, Yes, No, No, Yes, No, Yes, Yes, No
-Jessica Alba, 30, F, Entrepreneur, No, Yes, No, Yes, No, No, Yes, Yes, Yes, No, Yes, No, Yes, No, Yes, Yes, No, No, Yes, Yes
-Kyle Rayner, 26, M, Graphic Artist, Yes, Yes, No, Yes, No, Yes, No, No, Yes, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No, No
-Linda McCartney, 31, F, Nutritionist, No, No, Yes, No, Yes, No, Yes, Yes, No, Yes, No, Yes, Yes, No, No, Yes, Yes, No, Yes, No
-Mike Tyson, 38, M, Athlete, Yes, No, No, Yes, No, Yes, Yes, No, No, Yes, Yes, No, No, Yes, Yes, No, Yes, No, No, Yes
-Nina Dobrev, 24, F, Actress, No, Yes, Yes, No, Yes, Yes, No, Yes, No, No, Yes, No, Yes, No, No, Yes, No, Yes, Yes, No
-Oscar Wilde, 46, M, Writer, Yes, No, Yes, No, Yes, No, No, Yes, Yes, No, Yes, Yes, No, No, Yes, No, Yes, Yes, No, Yes
-Pam Beesly, 28, F, Office Manager, No, Yes, No, Yes, No, Yes, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No, No, Yes, Yes, No
-Quentin Tarantino, 55, M, Director, Yes, Yes, No, Yes, No, No, Yes, No, Yes, Yes, No, No, Yes, Yes, No, Yes, No, No, Yes, Yes
-Rachel Green, 26, F, Fashion Designer, No, No, Yes, Yes, Yes, No, No, Yes, No, Yes, Yes, No, No, Yes, Yes, No, Yes, No, Yes, No
-Tim Zorah, 25, M, Student, Yes, Yes, No, Yes, No, Yes, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No
-Morgan Freeman, 45, F, Consultant, No, Yes, Yes, No, Yes, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No, No, Yes, Yes, No, Yes
-Alex Mercer, 33, M, Data Scientist, Yes, No, Yes, No, Yes, No, Yes, Yes, No, Yes, No, Yes, No, No, Yes, Yes, No, No, Yes, No
-Samantha Carter, 29, F, Architect, No, Yes, No, Yes, Yes, No, Yes, No, Yes, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No, No
-David Tennant, 41, M, Healthcare Professional, Yes, No, No, Yes, No, Yes, No, Yes, Yes, No, Yes, No, Yes, Yes, No, No, Yes, No, Yes, Yes
-Elena Gilbert, 38, F, Legal Advisor, No, Yes, Yes, No, No, Yes, Yes, No, No, Yes, Yes, Yes, No, No, Yes, No, Yes, Yes, No, Yes
-Felix Mendelssohn, 24, M, Musician, Yes, Yes, No, No, Yes, No, Yes, No, Yes, Yes, No, Yes, Yes, No, No, Yes, Yes, No, No, No
-Grace Hopper, 31, F, Environmental Scientist, No, No, Yes, Yes, No, Yes, No, Yes, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No, No, Yes
-Henry Cavill, 36, M, Journalist, Yes, No, Yes, Yes, Yes, No, No, Yes, No, Yes, Yes, No, No, Yes, No, Yes, No, No, Yes, No
-Iris West-Allen, 34, F, Psychologist, No, Yes, No, No, Yes, Yes, Yes, No, Yes, No, Yes, No, Yes, Yes, No, No, Yes, No, Yes, Yes
-Jack Sparrow, 28, M, Entrepreneur, Yes, Yes, Yes, No, No, No, Yes, Yes, No, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No, No
-Kara Danvers, 26, F, Software Engineer, No, No, No, Yes, Yes, Yes, No, Yes, No, No, Yes, Yes, Yes, No, Yes, No, Yes, No, Yes, No
-Liam Neeson, 39, M, Chef, Yes, No, Yes, No, Yes, No, No, Yes, Yes, Yes, No, Yes, No, No, Yes, Yes, No, Yes, No, Yes
-Maya Angelou, 32, F, Fashion Stylist, No, Yes, No, Yes, No, Yes, Yes, No, No, Yes, Yes, No, Yes, No, No, Yes, Yes, Yes, No, No
-Nathan Drake, 37, M, Photographer, Yes, Yes, No, Yes, No, No, Yes, No, Yes, Yes, Yes, No, No, Yes, No, Yes, No, No, Yes, Yes
-Olivia Benson, 40, F, Writer, No, No, Yes, No, Yes, Yes, No, Yes, Yes, No, No, Yes, Yes, No, Yes, No, Yes, No, Yes, Yes
-Parker Posey, 42, M, Artist, Yes, Yes, Yes, No, No, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No, No, Yes, Yes, No, No
-Quinn Fabray, 27, F, HR Specialist, No, Yes, No, Yes, Yes, No, Yes, No, No, Yes, No, Yes, Yes, No, Yes, Yes, No, No, Yes, No
-Ruby Rose, 35, F, Public Relations Specialist, Yes, No, Yes, No, No, Yes, Yes, Yes, No, No, Yes, No, Yes, No, Yes, No, Yes, No, No, Yes
-Sean Bean, 30, M, Business Analyst, No, No, No, Yes, Yes, Yes, No, Yes, Yes, Yes, No, No, Yes, Yes, No, Yes, No, Yes, No, No
-Tina Fey, 29, F, Marketing Manager, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes
-Ulysses S. Grant, 31, M, Project Manager, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No
-Violet Baudelaire, 28, F, Teacher, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, Yes, No, Yes, No, Yes, No, No, Yes, Yes, No
-Walter White, 33, M, Actor, Yes, Yes, Yes, No, No, Yes, No, Yes, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No, Yes, No
-Xander Harris, 26, M, Graphic Designer, Yes, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes
-Yara Greyjoy, 30, F, Marketing Specialist, No, Yes, Yes, No, Yes, No, No, Yes, Yes, No, Yes, No, No, Yes, No, Yes, No, Yes, No, Yes
-Zane Truesdale, 35, M, Project Manager, Yes, No, Yes, Yes, No, No, Yes, Yes, No, Yes, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No
-John Smith, 32, M, Teacher, Yes, No, No, Yes, Yes, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes, No, Yes
+John Doe,30,M,Software Developer,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No
+Jane Smith,25,F,Graphic Designer,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes
+Alice Johnson,28,F,Marketing Specialist,Yes,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,No,No,Yes,Yes,No,No,Yes
+Bob Williams,35,M,Project Manager,No,No,Yes,Yes,No,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,No
+Charlie Brown,22,M,Student,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes
+Diana Ross,32,F,HR Manager,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No
+Ethan Hunt,29,M,Engineer,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes
+Fiona Gallagher,27,F,Teacher,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Yes,No
+George Clooney,40,M,Actor,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No,Yes,No
+Hannah Montana,18,F,Student,No,No,No,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,No,Yes
+Ian Somerhalder,34,M,Photographer,Yes,No,Yes,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No
+Jessica Alba,30,F,Entrepreneur,No,Yes,No,Yes,No,No,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Yes
+Kyle Rayner,26,M,Graphic Artist,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No,No
+Linda McCartney,31,F,Nutritionist,No,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,Yes,No
+Mike Tyson,38,M,Athlete,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes
+Nina Dobrev,24,F,Actress,No,Yes,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No
+Oscar Wilde,46,M,Writer,Yes,No,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes
+Pam Beesly,28,F,Office Manager,No,Yes,No,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No
+Quentin Tarantino,55,M,Director,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,Yes
+Rachel Green,26,F,Fashion Designer,No,No,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No
+Rachel Green,29,F,Fashion Designer,Yes,No,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes
+Simon Cowell,36,M,TV Producer,No,Yes,No,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No
+Tina Fey,34,F,Comedian,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,Yes
+Usher Raymond,31,M,Singer,No,Yes,No,No,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No
+Victoria Beckham,38,F,Fashion Designer,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,No
+Walter White,50,M,Chemist,No,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,No,Yes,No,Yes
+Xena Warrior,27,F,Athlete,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes
+Yoko Ono,36,F,Artist,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No
+Zachary Levi,28,M,Actor,Yes,No,No,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No,Yes,No,Yes,No,No
+Amelia Earhart,31,F,Pilot,No,Yes,Yes,No,No,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,No
+Bruce Wayne,35,M,Businessman,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No,Yes
+Celine Dion,42,F,Singer,No,No,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No
+Derek Shepherd,39,M,Surgeon,Yes,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes
+Elon Musk,47,M,Entrepreneur,No,Yes,No,No,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No,Yes,No
+Frida Kahlo,37,F,Artist,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Yes,No,No,Yes,Yes,No
+Gordon Ramsay,45,M,Chef,No,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes
+Hermione Granger,28,F,Librarian,Yes,No,No,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No
+Indiana Jones,40,M,Archaeologist,No,Yes,Yes,No,Yes,Yes,No,No,Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,Yes,No
+Joan of Arc,19,F,Military Leader,Yes,No,Yes,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes
+Kobe Bryant,41,M,Athlete,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes
+Lara Croft,29,F,Adventurer,Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No
+Marilyn Monroe,36,F,Actress,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,No,Yes
+Nelson Mandela,70,M,Statesman,Yes,No,Yes,Yes,No,No,Yes,No,No,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,No,No
+Oprah Winfrey,55,F,Media Proprietor,No,Yes,No,No,Yes,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No
+Pablo Picasso,88,M,Painter,Yes,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,No,Yes,No,Yes,Yes
+Quincy Jones,67,M,Music Producer,No,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,Yes,No
+Rihanna Fenty,31,F,Singer,Yes,No,Yes,No,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Yes
+Steve Jobs,56,M,Innovator,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,No
+Tupac Shakur,25,M,Rapper,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No,Yes
+Uma Thurman,40,F,Actress,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Yes,Yes,NoMike Alexandera,50,M,Nurse,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes

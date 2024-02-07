@@ -114,10 +114,10 @@ def determine_mbti(answers, dimensions):
 def main():
     questions, dimensions = load_questions_and_dimensions()
     config = load_config()
-    name = input("Enter your name: ")
-    age = input("Enter your age: ")
-    gender = input("Enter your gender: ")
-    occupation = input("Enter your occupation: ")
+    name = input("Enter your name(e.g. Rachel Green): ")
+    age = input("Enter your age(e.g. 30): ")
+    gender = input("Enter your gender(e.g. M or F): ")
+    occupation = input("Enter your occupation(e.g. Developer): ")
 
     answers = take_quiz(questions)
     save_user_profile(name, age, gender, occupation, answers)
