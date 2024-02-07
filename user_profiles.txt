@@ -47,4 +47,5 @@ Quincy Jones,67,M,Music Producer,No,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,N
 Rihanna Fenty,31,F,Singer,Yes,No,Yes,No,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes,Yes
 Steve Jobs,56,M,Innovator,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,No
 Tupac Shakur,25,M,Rapper,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No,Yes
-Uma Thurman,40,F,Actress,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Yes,Yes,NoMike Alexandera,50,M,Nurse,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes
+Uma Thurman,40,F,Actress,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Yes,Yes,NoMike
+Alexandera,50,M,Nurse,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes
