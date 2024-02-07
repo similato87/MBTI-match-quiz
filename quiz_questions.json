@@ -1,0 +1,22 @@
+[
+  {"question": "Do you feel recharged after spending time alone rather than in a crowd?", "dimension": "I-E"},
+  {"question": "Does engaging in small talk with strangers come naturally to you?", "dimension": "I-E"},
+  {"question": "Do you thrive in dynamic environments where you can interact with many people?", "dimension": "I-E"},
+  {"question": "Are you more comfortable in familiar settings than in new, unpredictable ones?", "dimension": "I-E"},
+  {"question": "When learning new information, do you prefer direct examples over theoretical concepts?", "dimension": "N-S"},
+  {"question": "Are you more fascinated by real-world applications than abstract ideas?", "dimension": "N-S"},
+  {"question": "Do you often notice and remember details that others might overlook?", "dimension": "N-S"},
+  {"question": "Do you enjoy exploring theoretical models and concepts just for the sake of understanding?", "dimension": "N-S"},
+  {"question": "In discussions, do you focus on consistency and logic more than people's feelings?", "dimension": "T-F"},
+  {"question": "Is making decisions with a clear head more your style than going with your gut feeling?", "dimension": "T-F"},
+  {"question": "Do you prioritize fairness and objectivity over harmony in relationships?", "dimension": "T-F"},
+  {"question": "Do you value empathy and understanding more than analytical problem-solving?", "dimension": "T-F"},
+  {"question": "Are you more inclined to stick to a plan rather than acting spontaneously?", "dimension": "J-P"},
+  {"question": "Do you find satisfaction in completing a task before moving on to the next one?", "dimension": "J-P"},
+  {"question": "Do you prefer to have things decided rather than open to change?", "dimension": "J-P"},
+  {"question": "Is your workspace organized in a structured manner that allows for efficiency?", "dimension": "J-P"},
+  {"question": "Do you often rely on past experiences to solve new problems?", "dimension": "N-S"},
+  {"question": "In a debate, is your approach more about winning the argument than maintaining the relationship?", "dimension": "T-F"},
+  {"question": "Do you plan your weekends to ensure you get the most out of them?", "dimension": "J-P"},
+  {"question": "When faced with a problem, do you prefer hands-on experience over speculative brainstorming?", "dimension": "N-S"}
+]
