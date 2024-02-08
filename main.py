@@ -7,7 +7,6 @@ def load_questions_and_dimensions():
     dimensions = [item["dimension"] for item in data]
     return questions, dimensions
 
-
 def take_quiz(questions):
     answers = []
     print("Please answer with 'y' for Yes or 'n' for No to the following questions:")
@@ -21,12 +20,10 @@ def take_quiz(questions):
                 print("Invalid response. Please use 'y' for Yes or 'n' for No.")
     return answers
 
-
 def save_user_profile(name, age, gender, occupation, answers):
     with open('user_profiles.txt', 'a') as file:
         profile = f"{name},{age},{gender},{occupation}," + ",".join(answers) + "\n"
         file.write(profile)
-
 
 def load_user_profiles():
     profiles = []
@@ -34,7 +31,6 @@ def load_user_profiles():
         for line in file:
             profiles.append(line.strip().split(','))
     return profiles
-
 
 def load_config():
     config = {}
@@ -44,72 +40,59 @@ def load_config():
             config[key] = float(value)
     return config
 
-
-def calculate_4d_distance(user_answers, other_user_answers, dimensions, config):
-    dimension_scores = {'I-E': 0, 'N-S': 0, 'T-F': 0, 'J-P': 0}
+def calculate_category_matches(user_answers, other_user_answers, dimensions, config):
+    category_scores = {'DL': 0, 'RD': 0, 'FG': 0, 'PVB': 0}
+    category_counts = {'DL': 0, 'RD': 0, 'FG': 0, 'PVB': 0}
 
     for user_answer, other_answer, dimension in zip(user_answers, other_user_answers, dimensions):
+        category_counts[dimension] += 1
         if user_answer == other_answer:
-            dimension_scores[dimension] += config.get(dimension, 1)  # Default weight is 1 if not specified
+            category_scores[dimension] += config.get(dimension, 1)  # Default weight is 1 if not specified
 
-    # Normalize the scores to be between 0 and 1 for each dimension
-    for dimension in dimension_scores:
-        dimension_scores[dimension] = dimension_scores[dimension] / dimensions.count(dimension)
+    # Normalize the scores to be between 0 and 1 for each category
+    for dimension in category_scores:
+        category_scores[dimension] = 100 * (category_scores[dimension] / category_counts[dimension])
 
-    # Calculate 4D Euclidean distance
-    distance = sum((1 - score) ** 2 for score in dimension_scores.values()) ** 0.5
-    return 100 * (1 - distance / 2 ** 0.5)  # Convert to percentage, max distance is sqrt(4) in 4D space
-
+    return category_scores
 
 def find_matches(current_user_profile, all_profiles, dimensions, config):
     matches = []
     for profile in all_profiles:
         if profile[0] == current_user_profile[0]:  # Skip the current user
             continue
-        match_score = calculate_4d_distance(current_user_profile[4:], profile[4:], dimensions, config)
-        matches.append((profile[0], match_score))
+        category_matches = calculate_category_matches(current_user_profile[4:], profile[4:], dimensions, config)
+        average_match_score = sum(category_matches.values()) / len(category_matches)
+        matches.append((profile[0], average_match_score, category_matches))
     return sorted(matches, key=lambda x: x[1], reverse=True)
 
+def explain_high_match(category_matches):
+    # Sort categories by match score
+    sorted_categories = sorted(category_matches, key=category_matches.get, reverse=True)
+    top_two_categories = sorted_categories[:2]
+    explanation = ""
+
+    # Combinations of top two categories and their explanations
+    if 'DL' in top_two_categories and 'RD' in top_two_categories:
+        explanation = ("Your top compatibilities lie in Daily Lifestyle and Relationship Dynamics, suggesting you both enjoy similar everyday activities and share effective communication and space in relationships. This combination lays a solid foundation for day-to-day harmony and understanding in partnership dynamics.")
+    elif 'DL' in top_two_categories and 'FG' in top_two_categories:
+        explanation = ("High matches in Daily Lifestyle and Future Goals indicate a shared enjoyment of daily routines and a common vision for the future. This suggests not only a comfortable daily life together but also aligned long-term aspirations, making for a cohesive partnership.")
+    elif 'DL' in top_two_categories and 'PVB' in top_two_categories:
+        explanation = ("Your compatibility in Daily Lifestyle and Personal Values and Beliefs highlights a blend of shared daily habits and core values. This unique mix can enrich your day-to-day interactions with deep respect and understanding for each other's principles and lifestyles.")
+    elif 'RD' in top_two_categories and 'FG' in top_two_categories:
+        explanation = ("Your strongest matches in Relationship Dynamics and Future Goals suggest a profound connection in how you manage relationships and envision your future together. This alignment promises a partnership that's not only emotionally intelligent but also forward-looking.")
+    elif 'RD' in top_two_categories and 'PVB' in top_two_categories:
+        explanation = ("With top compatibilities in Relationship Dynamics and Personal Values and Beliefs, your relationship is likely to be characterized by strong communication, mutual respect, and shared fundamental values, offering a promising basis for a deep and enduring connection.")
+    elif 'FG' in top_two_categories and 'PVB' in top_two_categories:
+        explanation = ("The combination of Future Goals and Personal Values and Beliefs as your highest compatibilities points to a relationship grounded in shared aspirations and core principles. This pairing suggests a strong, values-driven partnership with aligned life goals.")
+
+    return explanation
 
 def display_matches(matches):
     print("Your top matches:")
-    for name, percentage in matches:
-        print(f"{name}: {percentage:.2f}% match")
-
-
-def determine_mbti(answers, dimensions):
-    mbti_dimensions = {'I-E': 0, 'N-S': 0, 'T-F': 0, 'J-P': 0}
-    for answer, dimension in zip(answers, dimensions):
-        if answer == 'Yes':
-            mbti_dimensions[dimension] += 1  # Increment for 'Yes' responses
-        else:
-            mbti_dimensions[dimension] -= 1  # Decrement for 'No' responses
-
-    # Determine MBTI type
-    mbti_type = ''
-    mbti_type += 'I' if mbti_dimensions['I-E'] < 0 else 'E'
-    mbti_type += 'N' if mbti_dimensions['N-S'] > 0 else 'S'
-    mbti_type += 'F' if mbti_dimensions['T-F'] > 0 else 'T'
-    mbti_type += 'P' if mbti_dimensions['J-P'] > 0 else 'J'
-
-    return mbti_type
-
-def determine_mbti(answers, dimensions):
-    mbti_dimensions = {'I-E': 0, 'N-S': 0, 'T-F': 0, 'J-P': 0}
-    for answer, dimension in zip(answers, dimensions):
-        if answer == 'Yes':
-            mbti_dimensions[dimension] += 1  # Increment for 'Yes' responses
-        else:
-            mbti_dimensions[dimension] -= 1  # Decrement for 'No' responses
-
-    # Determine MBTI type
-    mbti_type = ''
-    mbti_type += 'I' if mbti_dimensions['I-E'] < 0 else 'E'
-    mbti_type += 'N' if mbti_dimensions['N-S'] > 0 else 'S'
-    mbti_type += 'F' if mbti_dimensions['T-F'] > 0 else 'T'
-    mbti_type += 'P' if mbti_dimensions['J-P'] > 0 else 'J'
-
-    return mbti_type
+    for name, percentage, category_matches in matches:
+        print(f"{name}: {percentage:.2f}% overall match")
+        explanation = explain_high_match(category_matches)
+        print(explanation)
 
 def main():
     questions, dimensions = load_questions_and_dimensions()
@@ -122,16 +105,10 @@ def main():
     answers = take_quiz(questions)
     save_user_profile(name, age, gender, occupation, answers)
 
-    mbti_result = determine_mbti(answers, dimensions)
-    print(f"{name}, your MBTI type is: {mbti_result}")
-
     all_profiles = load_user_profiles()
     current_user_profile = [name, age, gender, occupation] + answers
     matches = find_matches(current_user_profile, all_profiles, dimensions, config)
     display_matches(matches[:5])  # Display top 5 matches
-
-
-
 
 if __name__ == "__main__":
     main()

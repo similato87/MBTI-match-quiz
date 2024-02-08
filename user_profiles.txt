@@ -48,4 +48,8 @@ Rihanna Fenty,31,F,Singer,Yes,No,Yes,No,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,No,Y
 Steve Jobs,56,M,Innovator,No,Yes,No,Yes,No,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,No,No,Yes,Yes,No,No
 Tupac Shakur,25,M,Rapper,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No,Yes
 Uma Thurman,40,F,Actress,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,Yes,No,No,Yes,Yes,NoMike
-Alexandera,50,M,Nurse,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes
+Alex Andra,50,M,Nurse,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,Yes,No,No,Yes
+Andy Smith,40,F,Engineer,Yes,No,Yes,No,No,Yes,Yes,No,No,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes
+Amy Smith,49,F,Engineer,Yes,No,No,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No,Yes,No
+Guillaume Cathy,40,M,Actor,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,No,No,Yes,No,Yes,No
+David Scott,60,M,Retired,Yes,Yes,Yes,No,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,No
